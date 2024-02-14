@@ -9,7 +9,7 @@ conexao = pymysql.connect(
     database='pymysql'
 )
 
-#criação do bando de dados
+#criação do banco de dados
 cursor = conexao.cursor()
 cursor.execute("CREATE DATABASE pymysql")
 
